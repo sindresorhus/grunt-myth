@@ -23,7 +23,7 @@ grunt.loadNpmTasks('grunt-myth');
 
 
 [grunt]: http://gruntjs.com
-[Getting Started]: https://github.com/gruntjs/grunt/wiki/Getting-started
+[Getting Started]: http://gruntjs.com/getting-started
 
 
 ### Example
@@ -33,7 +33,7 @@ grunt.initConfig({
 	myth: {											// Task
 		dist: {										// Target
 			files: {								// Dictionary of files
-				'dist/app.css': 'src/app.css'	// 'destination': 'source'
+				'dist/app.css': 'src/app.css'		// 'destination': 'source'
 			}
 		}
 });
