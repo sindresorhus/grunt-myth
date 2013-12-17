@@ -36,6 +36,7 @@ grunt.initConfig({
 				'dist/app.css': 'src/app.css'		// 'destination': 'source'
 			}
 		}
+	}
 });
 
 grunt.loadNpmTasks('grunt-myth');
