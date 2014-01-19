@@ -33,7 +33,7 @@
   ],
   "dependencies": {
     "each-async": "~0.1.1",
-    "myth": "~0.1.0"
+    "myth": "~0.3.0"
   },
   "devDependencies": {
     "grunt": "~0.4.2",
