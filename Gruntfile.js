@@ -3,8 +3,11 @@ module.exports = function (grunt) {
 	grunt.initConfig({
 		myth: {
 			compile: {
+				options: {
+					sourcemap: true
+				},
 				files: {
-					'test/tmp/preprocessed.css': 'test/fixture/original.css'
+					'test/tmp/preprocessed.css': 'test/fixture.css'
 				}
 			}
 		},

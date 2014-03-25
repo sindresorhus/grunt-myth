@@ -4,6 +4,6 @@ var grunt = require('grunt');
 
 it('postprocess CSS with Myth', function () {
 	var actual = grunt.file.read('test/tmp/preprocessed.css');
-	var expected = grunt.file.read('test/fixture/expected.css');
-	assert.equal(actual + '\n', expected);
+	assert(/color: #a6c776;/.test(actual));
+	assert(/sourceMappingURL/.test(actual));
 });
