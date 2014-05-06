@@ -1,7 +1,7 @@
-:root{
-	var-green: #a6c776;
+:root {
+	--green: #a6c776;
 }
 
 a {
-	color: var(green);
+	color: var(--green);
 }

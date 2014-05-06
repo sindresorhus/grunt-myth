@@ -10,7 +10,7 @@
     "url": "http://sindresorhus.com"
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=0.10.0"
   },
   "scripts": {
     "test": "grunt"
@@ -32,15 +32,15 @@
     "ponyfill"
   ],
   "dependencies": {
-    "each-async": "~0.1.1",
-    "myth": "~0.3.0"
+    "each-async": "^0.1.1",
+    "myth": "^1.0.1"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-simple-mocha": "~0.4.0"
+    "grunt": "^0.4.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-simple-mocha": "^0.4.0"
   },
   "peerDependencies": {
-    "grunt": "~0.4.0"
+    "grunt": "^0.4.0"
   }
 }
