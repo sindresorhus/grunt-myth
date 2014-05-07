@@ -1,6 +1,6 @@
 {
   "name": "grunt-myth",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Myth - Postprocessor that polyfills CSS",
   "license": "MIT",
   "repository": "sindresorhus/grunt-myth",
