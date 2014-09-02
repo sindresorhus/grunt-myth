@@ -1,7 +1,7 @@
 {
   "name": "grunt-myth",
   "version": "0.3.2",
-  "description": "Myth - Postprocessor that polyfills CSS",
+  "description": "Postprocessor that polyfills CSS",
   "license": "MIT",
   "repository": "sindresorhus/grunt-myth",
   "author": {
@@ -32,12 +32,13 @@
     "ponyfill"
   ],
   "dependencies": {
-    "each-async": "^0.1.1",
+    "each-async": "^1.0.0",
     "myth": "^1.0.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-contrib-clean": "^0.5.0",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-clean": "^0.6.0",
     "grunt-simple-mocha": "^0.4.0"
   }
 }

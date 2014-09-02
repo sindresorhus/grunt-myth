@@ -5,51 +5,38 @@
 *Issues with the output should be reported on the Myth [issue tracker](https://github.com/segmentio/myth).*
 
 
-## Getting Started
+## Install
 
-If you haven't used [grunt][] before, be sure to check out the [Getting Started][] guide, as it explains how to create a [gruntfile][Getting Started] as well as install and use grunt plugins. Once you're familiar with that process, install this plugin with this command:
-
-```bash
+```sh
 $ npm install --save-dev grunt-myth
 ```
 
-Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
+
+## Usage
 
 ```js
-grunt.loadNpmTasks('grunt-myth');
-```
+require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
 
-*Tip: the [load-grunt-tasks](https://github.com/sindresorhus/load-grunt-tasks) module makes it easier to load multiple grunt tasks.*
-
-
-[grunt]: http://gruntjs.com
-[Getting Started]: http://gruntjs.com/getting-started
-
-
-### Example
-
-```js
 grunt.initConfig({
-	myth: {											// task
-		options: {									// options
+	myth: {
+		options: {
 			sourcemap: true
 		},
-		dist: {										// target
-			files: {								// dictionary of files
-				'dist/app.css': 'src/app.css'		// 'destination': 'source'
+		dist: {
+			files: {
+				'dist/app.css': 'src/app.css'
 			}
 		}
 	}
 });
 
-grunt.loadNpmTasks('grunt-myth');
 grunt.registerTask('default', ['myth']);
 ```
 
 
-### Options
+## Options
 
-#### sourcemap
+### sourcemap
 
 Type: `boolean`  
 Default: `false`
