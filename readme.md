@@ -38,7 +38,7 @@ grunt.registerTask('default', ['myth']);
 
 ### sourcemap
 
-Type: `boolean`  
+Type: `boolean`
 Default: `false`
 
 Embed a Source Map.
