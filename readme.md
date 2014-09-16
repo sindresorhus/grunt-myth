@@ -38,11 +38,19 @@ grunt.registerTask('default', ['myth']);
 
 ### sourcemap
 
-Type: `boolean`  
+Type: `boolean`
 Default: `false`
 
 Embed a Source Map.
 
+### features
+
+Type: `object`
+Default: `{}`
+
+Disable or enable specific myth features. Omitted features are enabled
+by default. Myth's feature list can be found in the [Node.js section of
+their README](https://github.com/segmentio/myth#nodejs).
 
 ## License
 
