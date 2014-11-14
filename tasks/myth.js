@@ -8,7 +8,15 @@ module.exports = function (grunt) {
 
 		var options = this.options();
 		var execute = function ( dest, src, options ) {
-			grunt.file.write( dest, myth( grunt.file.read( src ), options ) );
+
+			var content = '';
+			if (options.prefixFile) {
+				content += grunt.file.read( options.prefixFile );
+			}
+			content += grunt.file.read( src );
+
+			grunt.file.write( dest, myth( content, options ) );
+
 		};
 
 		eachAsync( this.files, function ( el, i, next ) {
