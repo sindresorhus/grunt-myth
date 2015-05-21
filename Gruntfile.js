@@ -25,5 +25,10 @@ module.exports = function (grunt) {
 	grunt.loadNpmTasks('grunt-contrib-clean');
 	grunt.loadNpmTasks('grunt-simple-mocha');
 
-	grunt.registerTask('default', ['clean', 'myth', 'simplemocha', 'clean']);
+	grunt.registerTask('default', [
+		'clean',
+		'myth',
+		'simplemocha',
+		'clean'
+	]);
 };

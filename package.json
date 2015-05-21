@@ -7,7 +7,7 @@
   "author": {
     "name": "Sindre Sorhus",
     "email": "sindresorhus@gmail.com",
-    "url": "http://sindresorhus.com"
+    "url": "sindresorhus.com"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -28,8 +28,7 @@
     "postprocessor",
     "rework",
     "compile",
-    "polyfill",
-    "ponyfill"
+    "polyfill"
   ],
   "dependencies": {
     "each-async": "^1.0.0",
