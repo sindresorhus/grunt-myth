@@ -38,14 +38,14 @@ grunt.registerTask('default', ['myth']);
 
 ### sourcemap
 
-Type: `boolean`  
+Type: `boolean`<br>
 Default: `false`
 
 Embed a Source Map.
 
 ### features
 
-Type: `object`  
+Type: `object`<br>
 Default: `{}`
 
 Disable specific Myth [features](https://github.com/segmentio/myth#nodejs).
@@ -53,4 +53,4 @@ Disable specific Myth [features](https://github.com/segmentio/myth#nodejs).
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
