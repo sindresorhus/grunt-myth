@@ -33,6 +33,25 @@ grunt.initConfig({
 grunt.registerTask('default', ['myth']);
 ```
 
+```js
+require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
+
+grunt.initConfig({
+	myth: {
+		options: {
+			prefixFile: 'src/root.css'
+		},
+		dist: {
+			files: {
+				'dist/app.css': 'src/app.css'
+			}
+		}
+	}
+});
+
+grunt.registerTask('default', ['myth']);
+```
+
 
 ## Options
 
@@ -49,6 +68,13 @@ Type: `object`<br>
 Default: `{}`
 
 Disable specific Myth [features](https://github.com/segmentio/myth#nodejs).
+
+### prefixFile
+
+Type: `string`  
+Default: `null`
+
+Add a prefix file to every handled file
 
 
 ## License
