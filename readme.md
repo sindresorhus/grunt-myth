@@ -1,3 +1,9 @@
+# Deprecated
+
+Deprecated as the Myth project is no longer maintained.
+
+---
+
 # grunt-myth [![Build Status](https://travis-ci.org/sindresorhus/grunt-myth.svg?branch=master)](https://travis-ci.org/sindresorhus/grunt-myth)
 
 > [Myth](https://github.com/segmentio/myth) - Postprocessor that polyfills CSS
